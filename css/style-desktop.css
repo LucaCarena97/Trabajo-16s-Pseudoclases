@@ -1,0 +1,500 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+:root {
+  /*--nombre-variable: 12px 10px 11px 10px*/
+  --color-primario: #f0a83e;
+  --color-secundario: #3c2313;
+  --color-terciario: #8a8787;
+  --padding-principal: 12px 10px 11px 10px;
+}
+
+html {
+  font-size: 62.5%; /* 1rem => 10px*/
+}
+
+body {
+  font-family: "Roboto", sans-serif;}
+
+.header__menu-mobile{
+  display: none;
+}
+
+.logoh1 {
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoh2 {
+
+  margin: 0;
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+display: inline-block;
+}
+
+
+.logoh21 {
+  color: #3c2313;
+  font-size: 2rem;
+  font-weight: 700;
+display: inline-block;
+}
+
+
+.logoh2::before{
+  content: url(../images/Cat.png);
+}
+
+.logoh21::after {
+  content: url(../images/Dog.png) ;
+}
+
+.header__menu{
+ display: block;
+ margin-right: 4rem;
+}
+
+.menu {
+  margin-top: 1.8rem;
+  font-weight: lighter;
+}
+
+.cat1 {
+  font-size: 1.3rem;
+  margin-right: 2px;
+}
+
+.cat1::before {
+  content: url(../images/pawprint\ 1.png);
+}
+
+.cat1:hover {
+  padding: 2px;
+  transition: 0.2s;
+}
+
+.banner {
+ background-image: url("../images/bg_desktop.png");
+}
+
+.banner__title {
+ align-self: flex-end;
+ margin-right: 1rem;
+ font-size: 3rem;
+}
+
+.banner p {
+  font-size: 1.6rem;
+  margin-right: 12rem;
+  text-align: center;
+  color: #3c2313;
+}
+
+.banner a {
+  font-size: 1.6rem;
+  margin-right: 14rem;
+}
+
+.a1:hover {
+  transition: 0.5s;
+  padding: 30px 30px;
+}
+
+.img1 {
+  margin-top: 1%;
+  display: flex;
+justify-content: center;
+}
+
+.pata {
+  margin: 0%;
+  width: 10rem;
+  height: 10rem;
+}
+
+.productodes {
+  
+margin-left: 24%;
+  font-weight: 700;
+  color: #3c2313;
+  margin-top: 1%;
+  font-size: 4rem;
+
+  width: 51%;
+
+}
+
+.productodes:hover {
+  padding: 2px;
+  transition: 0.5s;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+  font-size: 1.5rem;
+  color: #3c2313c7;
+}
+
+.deco:hover {
+  padding: 5px;
+  transition: 0.3s;
+}
+
+.barra {
+  margin: 0px 2rem 0px;
+}
+
+.arti {
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.info4 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.info4:hover {
+  transition: 1s;
+  padding: 15px;
+}
+
+.descr {
+  font-size: 1.5rem;
+  color: #3c2313;
+  font-weight: 700;
+}
+
+.precio {
+  color: #f0a83e;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.contacto {
+  color: #3c2313;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+
+.form {
+  width: 100%;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.consulta {
+  margin-top: 8px;
+  background-color: #3c2313;
+  color: white;
+  font-size: 1rem;
+  padding: 15px;
+  width: 25%;
+  border-radius: 15px;
+}
+
+.form1 {
+  background-color: #3c2313;
+  color: white;
+  font-size: 1rem;
+  padding: 15px;
+  width: 25%;
+  border-radius: 15px;
+}
+
+.form1:focus {
+  background-color: #f0a83e;
+}
+
+.contacto1 {
+  width: 30%;
+  margin-top: 1%;
+  background-color: #3c2313;
+  color: white;
+  font-size: 1rem;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+
+.info6 {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+
+.msj {
+  color: white;
+  background-color: #3c2313;
+  border-radius: 15px;
+  padding: 5px 15px;
+  font-weight: 700;
+  font-size: 1rem;
+  border: 2px solid black;
+}
+
+.msj1 {
+  border-radius: 15px;
+  padding: 15px;
+  color: white;
+  background-color: #3c2313;
+  border: 2px solid black;
+}
+
+.toolbar {
+  margin-top: 2%;
+  text-align: center;
+}
+
+.reset {
+  margin-right: 5px;
+  width: 10%;
+  color: white;
+  padding: 10px 35px;
+  border-radius: 15px;
+  background-color: #8a8787;
+font-size: 1.6rem;
+}
+
+.reset:hover {
+  padding: 15px;
+  transition: 0.2s;
+}
+
+.send {
+  margin-left: 5px;
+  width: 10%;
+  color: white;
+  padding: 10px 35px;
+  border-radius: 15px;
+  background-color: #f0a83e;
+  font-size: 1.6rem;
+}
+
+.send:hover {
+  padding: 15px;
+  transition: 0.2s;
+}
+
+.finmain {
+  background-color: #f0a83e;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 7rem;
+  margin-top: 5%;
+}
+
+.img5 {
+  margin-left: 1%;
+  margin-right: 1%;
+  width: 55px;
+  height: 35px;
+}
+
+.box2 {
+  width: 25%;
+  display: flex;
+  align-items: center;
+}
+
+.box31 {
+  gap: 10px;
+  width: 30%;
+  display: flex;
+}
+
+.sub1 {
+
+
+  color: white;
+  font-size: 2rem;
+font-weight: 700;
+}
+
+.sub2 {
+  padding: 15px;
+  background-color: white;
+  border-radius: 15px;
+  color: #8a8787;
+  width: 80%;
+}
+
+.sub3 {
+  margin-right: 5%;
+  padding: 15px;
+  color: white;
+  font-weight: 700;
+  font-size: 0.9rem;
+  background-color: #3c2313;
+  border-radius: 15px;
+}
+
+.sub3:hover {
+  padding: 20px;
+transition: 0.2s;
+}
+
+.logoh5mobile {
+  display: none;
+}
+
+.general {
+
+  height: 350px;
+  background-color: #3c2313;
+  display: flex;
+justify-content: space-around;
+  width: 100%;
+}
+
+.logomobile {
+  display: none;
+}
+
+.padre {
+  gap: 10px;
+
+  display: flex;
+  margin-right: 50%;
+}
+
+.image {
+
+  margin-top: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 15px;
+  margin-left: 1%;
+}
+
+.image1:hover {
+  padding: 1px;
+  transition: 0.2s;
+}
+
+.image2:hover {
+  padding: 1px;
+  transition: 0.2s;
+}
+
+.image3:hover {
+  padding: 1px;
+  transition: 0.2s;
+}
+
+.general2 {
+
+  margin-top: 1%;
+  margin-left: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.ubi {
+  width: 200px;
+}
+
+.ubi h3 {
+
+  font-size: 2rem;
+  color: white;
+  font-weight: 700;
+}
+
+.ubi p {
+  font-size: 1rem;
+  color: #8a8787;
+  font-weight: 700;
+}
+
+.tel h3 {
+  font-size: 2rem;
+  color: white;
+  font-weight: 700;
+}
+
+.tel p {
+  font-size: 1rem;
+  color: #8a8787;
+  font-weight: 700;
+}
+
+.correo1 h3 {
+  font-size: 2rem;
+  color: white;
+  font-weight: 700;
+}
+
+.correo1 p {
+  font-size: 1rem;
+  color: #8a8787;
+  font-weight: 700;
+}
+
+.logoh5 {
+
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.logoh51 {
+
+  margin: 0;
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+display: inline-block;
+}
+
+.logoh52 {
+
+  color: #f0a83e;
+  font-size: 2rem;
+  font-weight: 700;
+display: inline-block;
+}
+
+.logoh51::before {
+  content: url(../images/Cat.png);
+}
+
+.logoh52::after {
+  content: url(../images/Dog.png);
+}
+
+.fin {
+  padding: 5px;
+  font-weight: 700;
+  font-size: 1.3rem;
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.867);
+}
